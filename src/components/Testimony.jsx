@@ -127,11 +127,11 @@ const Testimony = () => {
                   <article key={s.title} className="w-full shrink-0">
                     <div className="flex items-center gap-3">
                       <div>
-                        <div className="text-2xl font-medium">{s.title}</div>
+                        <div className="text-3xl font-medium">{s.title}</div>
                       </div>
                     </div>
                     <div className="mt-6 border-t border-white/10"></div>
-                    <p className="mt-2 text-xl lg:text-2xl">
+                    <p className="mt-2 text-md l">
                       “{s.text || s.title}”
                     </p>
                   </article>

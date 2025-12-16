@@ -45,7 +45,7 @@ const Services = () => {
     return () => obs.disconnect()
   }, [])
   return (
-    <section id="values" className="mx-auto max-w-7xl px-4 md:px-6 lg:px-8 py-14 text-[#fdf8f4] mt-10 pt-20 scroll-mt-16">
+    <section id="values" className="mx-auto max-w-7xl px-4 md:px-6 lg:px-8 py-8 text-[#fdf8f4] mt-10 pt-20 scroll-mt-16">
       <div className="flex items-center justify-between py-10">
         <h2 className="text-3xl font-semibold font-montserrat">
           <span>How We Create  </span>
@@ -57,7 +57,7 @@ const Services = () => {
         </a>
       </div>
 
-      <div className={`space-y-4 transition-all duration-700 ${reveal ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'}`}>
+      <div className={`transition-all duration-700 ${reveal ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'}`}>
         {rows.map((row, i) => {
           const active = i === openIndex
           return (
@@ -67,7 +67,7 @@ const Services = () => {
             style={{ transitionDelay: `${i * 60}ms` }}
           >
             <div className="flex items-center justify-between ">
-              <h3 className="text-2xl sm:text-4xl lg:text-5xl max-w-[70%] md:max-w-full font-bold tracking-tight font-montserrat">{row.title}</h3>
+              <h3 className="text-2xl sm:text-3xl max-w-[70%] md:max-w-full font-bold tracking-tight font-montserrat">{row.title}</h3>
               <button
                 type="button"
                 aria-expanded={active}

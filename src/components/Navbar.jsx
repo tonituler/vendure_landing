@@ -87,7 +87,7 @@ const Navbar = () => {
                 </a>
 
                 {/* Desktop Menu */}
-                <ul className="hidden lg:flex items-center gap-1  px-2 py-2.5">
+                <ul className="hidden lg:flex items-center gap-5 min-[1110px]:gap-10  px-5 py-2.5">
                   {navItems.map((label) => (
                     <li key={label} className="relative">
                       <a
@@ -100,7 +100,7 @@ const Navbar = () => {
                           else if (id === 'home') window.scrollTo({ top: 0, behavior: 'smooth' })
                           setActiveItem(label)
                         }}
-                        className={`relative group px-5 py-2.5 rounded-full text-sm text-[#fdf8f4] `}
+                        className={`relative group px-5 py-2.5 text-lg text-[#fdf8f4]  font-campton`}
                       >
                         {label}
                         <span
@@ -122,7 +122,7 @@ const Navbar = () => {
                   const el = document.getElementById('footer')
                   if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' })
                 }}
-                className="hidden lg:inline-flex items-center gap-2 rounded-xl bg-[#f15a25] text-[#fdf8f4] px-5 py-2 font-medium shadow-sm hover:bg-[#fdf8f4]/95 hover:text-black transition-colors"
+                className="hidden lg:inline-flex items-center gap-2 rounded-xl bg-[#f15a25] text-[#fdf8f4] px-5 py-2 font-medium shadow-sm hover:bg-[#fdf8f4]/95 font-campton hover:text-black transition-colors"
               >
                 <span>Contact Us</span>
                 <ArrowUpRight  />

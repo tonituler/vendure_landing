@@ -53,8 +53,8 @@ const FAQs = () => {
   }, [])
 
   return (
-    <section id="faqs" className={`mx-auto max-w-3xl md:max-w-4xl lg:max-w-5xl px-4 md:px-6 lg:px-8 py-20 text-white scroll-mt-16 transition-all duration-700 ${reveal ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'}`}>
-      <h2 className="text-center text-5xl sm:text-6xl font-semibold">
+    <section id="faqs" className={`mx-auto max-w-3xl md:max-w-4xl lg:max-w-5xl px-4 md:px-6 lg:px-7 py-20 text-white scroll-mt-16 transition-all duration-700 ${reveal ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'}`}>
+      <h2 className="text-center text-3xl font-semibold">
         <span>Ask Us </span>
         <span className="italic text-[#f15a25]">Anything</span>
       </h2>
@@ -75,7 +75,7 @@ const FAQs = () => {
                 aria-expanded={active}
                 className="w-full flex items-center justify-between px-6 py-5 sm:px-7 sm:py-6 transition-colors"
               >
-                <span className={`text-lg sm:text-xl font-medium ${active ? 'text-white' : 'text-white'}`}>{item.q}</span>
+                <span className={`text-lg sm:text-3xl font-medium ${active ? 'text-white' : 'text-white'}`}>{item.q}</span>
                 {active ? (
                   <FiMinus size={22} className="text-white" />
                 ) : (
@@ -84,7 +84,7 @@ const FAQs = () => {
               </button>
               <div className={`grid transition-all duration-300 ${active ? 'grid-rows-[1fr] opacity-100' : 'grid-rows-[0fr] opacity-0'}`}>
                 <div className="overflow-hidden px-6 pb-5 sm:px-7 sm:pb-6">
-                  <p className="text-base sm:text-lg text-white/90 max-w-3xl">
+                  <p className="text-base text-md text-white/90 max-w-3xl">
                     {item.a}
                   </p>
                 </div>

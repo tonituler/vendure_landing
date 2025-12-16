@@ -39,29 +39,29 @@ const AboutUs = () => {
       </header>
 
       <div className='mt-12 grid grid-cols-1 lg:grid-cols-2 gap-10 transition-all duration-700 '>
-        <div>
-          <img src={heroimg} alt="About Us" className=" rounded-full" />
+        <div className='flex justify-center'>
+          <img src={heroimg} alt="About Us" className="w-64" />
         </div>
 
         <div className="space-y-6 p-6 sm:p-8 transition-all duration-300 hover:-translate-y-1.5 ]">
           <h3 className="text-2xl sm:text-3xl font-semibold text-[#fdf8f4] font-montserrat">Who We Are</h3>
-          <p className="text-[#fdf8f4] text-2xl font-campton">
+          <p className="text-[#fdf8f4] text-md font-campton">
             Vendure Capital Partners is a private investment and enterprise development platform focused on transforming unlisted African businesses into scalable. We invest in high-potential SMEs and growth-stage ventures across real-economy value chains. Our goal is to close Africa’s enterprise financing gap through a model anchored on capital, capacity and catalytic partnerships.
           </p>
         </div>
       </div>
 
-      <main className={`mt-12 grid grid-cols-1 lg:grid-cols-2 gap-10 transition-all duration-700 ${reveal ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'}`}> 
+      <main className={`mt-12 grid grid-cols-1 lg:grid-cols-2 gap-12 transition-all duration-700 ${reveal ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'}`}> 
         <div className="space-y-10 flex flex-col justify-between">
-          <div className=" md:py-20 rounded-2xl bg-[#fdf8f4]/10 ring-1 ring-white/10 p-6 sm:px-8 backdrop-blur-sm transition-all duration-300 hover:-translate-y-1.5 hover:shadow-xl hover:ring-[#dca94e]">
-            <h3 className="text-xl sm:text-2xl font-semibold font-montserrat text-[#fdf8f4]">Mission</h3>
-            <p className="mt-3 text-[#fdf8f4]/90 leading-relaxed font-campton text-sm">
+          <div className=" md:py-24 rounded-2xl bg-[#fdf8f4]/10 ring-1 ring-white/10 p-6 sm:px-8 backdrop-blur-sm transition-all duration-300 hover:-translate-y-1.5 hover:shadow-xl hover:ring-[#dca94e]">
+            <h3 className="text-xl sm:text-3xl font-semibold font-montserrat text-[#fdf8f4]">Mission</h3>
+            <p className="mt-3 text-[#fdf8f4]/90 leading-relaxed font-campton text-md">
               “To unlock growth for unlisted enterprises by providing capital, strategic support, and structured liquidity pathways; enabling scalable, resilient businesses to thrive and create long-term value.“
             </p>
           </div>
-          <div className="md:py-20 rounded-2xl bg-[#fdf8f4]/10 ring-1 ring-white/10 p-6 sm:p-8 backdrop-blur-sm transition-all duration-300 hover:-translate-y-1.5 hover:shadow-xl hover:ring-[#dca94e]">
-            <h3 className="text-xl sm:text-2xl font-semibold font-montserrat text-[#fdf8f4]">Vision</h3>
-            <p className="mt-3 text-[#fdf8f4]/90 leading-relaxed font-campton text-sm">
+          <div className="md:py-24 rounded-2xl bg-[#fdf8f4]/10 ring-1 ring-white/10 p-6 sm:p-8 backdrop-blur-sm transition-all duration-300 hover:-translate-y-1.5 hover:shadow-xl hover:ring-[#dca94e]">
+            <h3 className="text-xl sm:text-3xl font-semibold font-montserrat text-[#fdf8f4]">Vision</h3>
+            <p className="mt-3 text-[#fdf8f4]/90 leading-relaxed font-campton text-md">
               “To enable growth and liquidity for unlisted enterprises, catalyzing a resilient real economy through investment, innovation, and inclusive market access.“
             </p>
           </div>
@@ -79,8 +79,8 @@ const AboutUs = () => {
                 <div className="flex items-start gap-3 ">
                   <span className="mt-2.5 inline-block h-2 w-2 rounded-full bg-[#dca94e]"></span>
                   <div>
-                    <div className="text-lg font-semibold font-montserrat">{v.title}</div>
-                    <p className="mt-1 text-sm text-[#fdf8f4]/85 font-campton">{v.text}</p>
+                    <div className="text-xl font-semibold font-montserrat">{v.title}</div>
+                    <p className="mt-1 text-md text-[#fdf8f4]/85 font-campton">{v.text}</p>
                   </div>
                 </div>
               </li>
