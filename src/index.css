@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
+
+/* Light - 300 */
+@font-face {
+  font-family: "Campton";
+  src: url("/src/assets/fonts/Campton/Campton-Light.otf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+/* Regular - 400 */
+@font-face {
+  font-family: "Campton";
+  src: url("/src/assets/fonts/CamptonRegular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Medium - 500 */
+@font-face {
+  font-family: "Campton";
+  src: url("/src/assets/fonts/CamptonMedium.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* Bold - 700 */
+@font-face {
+  font-family: "Campton";
+  src: url("/src/assets/fonts/CamptonBold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* Extra Bold - 800 */
+@font-face {
+  font-family: "Campton";
+  src: url("/src/assets/fonts/CamptonExtraBold.otf") format("opentype");
+  font-weight: 800;
+  font-style: normal;
+}
+
+
+@import "tailwindcss";
+
+@theme {
+  --font-montserrat: "Montserrat", sans-serif;
+  --font-campton: "Campton", sans-serif;
+}
+
+/* Override white text to brand cream */
+.text-white { color: #fdf8f4; }
+.text-white\/95 { color: rgb(253 248 244 / 0.95); }
+.text-white\/90 { color: rgb(253 248 244 / 0.90); }
+.text-white\/85 { color: rgb(253 248 244 / 0.85); }
+.text-white\/80 { color: rgb(253 248 244 / 0.80); }
+.text-white\/70 { color: rgb(253 248 244 / 0.70); }
+.text-white\/60 { color: rgb(253 248 244 / 0.60); }
+.text-white\/40 { color: rgb(253 248 244 / 0.40); }
+.text-white\/30 { color: rgb(253 248 244 / 0.30); }
+.text-white\/15 { color: rgb(253 248 244 / 0.15); }
+.text-white\/10 { color: rgb(253 248 244 / 0.10); }
