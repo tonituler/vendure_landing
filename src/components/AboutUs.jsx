@@ -40,10 +40,10 @@ const AboutUs = () => {
 
       <div className='mt-12 grid grid-cols-1 lg:grid-cols-2 gap-10 transition-all duration-700 '>
         <div className='flex justify-center'>
-          <img src={heroimg} alt="About Us" className="w-64" />
+          <img src={heroimg} alt="About Us" className="w-96 ring-4 ring-[#f15a25]  rounded-full hover:ring-6 hover:ring-[#f15a25] transition-transform  duration-300 hover:scale-105 " />
         </div>
 
-        <div className="space-y-6 p-6 sm:p-8 transition-all duration-300 hover:-translate-y-1.5 ]">
+        <div className="space-y-6 p-6 sm:p-8 transition-all duration-300]">
           <h3 className="text-2xl sm:text-3xl font-semibold text-[#fdf8f4] font-montserrat">Who We Are</h3>
           <p className="text-[#fdf8f4] text-md font-campton">
             Vendure Capital Partners is a private investment and enterprise development platform focused on transforming unlisted African businesses into scalable. We invest in high-potential SMEs and growth-stage ventures across real-economy value chains. Our goal is to close Africa’s enterprise financing gap through a model anchored on capital, capacity and catalytic partnerships.

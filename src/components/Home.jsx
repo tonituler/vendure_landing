@@ -24,7 +24,7 @@ const Home = () => {
   }, [])
   return (
     <>
-    <section id="home" className=" mx-auto max-w-7xl px-4 md:px-6 lg:px-8 mt-3 scroll-mt-24">
+    <section id="home" className=" mx-auto max-w-7xl px-4 md:px-6 lg:px-8 mt-16 scroll-mt-24">
       <div className={`grid grid-cols-1 min-[1150px]:grid-cols-2 lg:gap-7 xl transition-all duration-700 ${reveal ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'}`}>
         <div className="pt-4 space-y-2 lg:space-y-16">
             <div className="max-lg:text-center lg:max-w-[80%] ">
