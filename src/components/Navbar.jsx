@@ -2,7 +2,7 @@ import React, { useState, useEffect, useMemo } from 'react'
 import { TbLetterH } from 'react-icons/tb'
 import { FiArrowUpRight } from 'react-icons/fi'
 import { RiMenu3Line } from 'react-icons/ri'
-import Logo from '../assets/logo.jpg';
+import Logo from '../assets/logo.png';
 
 const LogoIcon = (props) => <TbLetterH size={22} {...props} />
 const ArrowUpRight = (props) => <FiArrowUpRight size={18} {...props} />
@@ -69,7 +69,7 @@ const Navbar = () => {
 
   return (
     <header
-      className={`fixed inset-x-0 top-0 z-50 w-full py-1 transition-all duration-300 font-campton text[#fdf8f4]
+      className={`fixed inset-x-0 top-0 z-50 w-full py-7 transition-all duration-300 font-campton text[#fdf8f4]
       ${scrolled 
         ? " backdrop-blur-xl  " 
         : "bg-transparent backdrop-blur-lg"
@@ -83,7 +83,7 @@ const Navbar = () => {
           <div className='flex items-center'> 
                 {/* Logo */}
                 <a href="#" className="flex items-center rounded-full  py-1">
-                  <img src={Logo} className="w-50 " alt="Venture logo" />
+                  <img src={Logo} className="w-60  " alt="Venture logo" />
                 </a>
 
                 {/* Desktop Menu */}
