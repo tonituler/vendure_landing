@@ -12,7 +12,7 @@ const Navbar = () => {
   const [open, setOpen] = useState(false)
   const [scrolled, setScrolled] = useState(false)
 
-  const navItems = useMemo(() => ['Home', 'About Us', 'Values','Impact', 'FAQs'], [])
+  const navItems = useMemo(() => ['Home', 'About Us', 'Values', 'FAQs'], [])
   const navMap = useMemo(() => ({
     'Home': 'home',
     'About Us': 'about-us',
@@ -69,7 +69,7 @@ const Navbar = () => {
 
   return (
     <header
-      className={`fixed inset-x-0 top-0 z-50 w-full py-7 transition-all duration-300 font-campton text[#fdf8f4]
+      className={`fixed inset-x-0 top-0 z-50 w-full py-6 transition-all duration-300 font-campton text[#fdf8f4]
       ${scrolled 
         ? " backdrop-blur-xl  " 
         : "bg-transparent backdrop-blur-lg"
