@@ -55,7 +55,7 @@ const AboutUs = () => {
             onMouseLeave={() => setTilt({ rx: 0, ry: 0 })}
             style={{ transform: `perspective(800px) rotateX(${tilt.rx}deg) rotateY(${tilt.ry}deg)` }}
           >
-            <div className="absolute -z-10 left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 h-72 w-72 rounded-full bg-[#f15a25]/20 blur-2xl"></div>
+            <div className="absolute -z-10 left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 h-72 w-72 rounded-full "></div>
             <img src={heroimg} alt="About Us" className="w-96 ring-4 ring-[#f15a25] rounded-full transition-transform duration-700 hover:scale-105" />
           </div>
         </div>

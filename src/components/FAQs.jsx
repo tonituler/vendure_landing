@@ -75,9 +75,9 @@ const FAQs = () => {
                 aria-expanded={active}
                 className="w-full flex items-center justify-between px-6 py-5 sm:px-7 sm:py-6 transition-colors"
               >
-                <span className={`text-lg sm:text-3xl font-medium ${active ? 'text-white' : 'text-white'}`}>{item.q}</span>
+                <span className={`max-sm:max-w-[80%] text-lg lg:text-3xl font-medium flex items-start ${active ? 'text-white' : 'text-white'}`}>{item.q}</span>
                 {active ? (
-                  <FiMinus size={22} className="text-white" />
+                  <FiMinus size={22} className="text-white " />
                 ) : (
                   <FiPlus size={22} className="text-white/90" />
                 )}
