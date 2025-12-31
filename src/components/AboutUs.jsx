@@ -56,14 +56,14 @@ const AboutUs = () => {
             style={{ transform: `perspective(800px) rotateX(${tilt.rx}deg) rotateY(${tilt.ry}deg)` }}
           >
             <div className="absolute -z-10 left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 h-72 w-72 rounded-full "></div>
-            <img src={heroimg} alt="About Us" className="w-96 ring-4 ring-[#f15a25] rounded-full transition-transform duration-700 hover:scale-105" />
+            <img src={heroimg} alt="About Us" className="w-80 ring-4 ring-[#f15a25] rounded-full transition-transform duration-700 hover:scale-105" />
           </div>
         </div>
 
         <div className="space-y-6 p-6 sm:p-8 ">
           <h3 className="text-2xl sm:text-3xl font-semibold text-[#fdf8f4] font-montserrat">Who We Are</h3>
-          <p className="text-[#fdf8f4] text-md font-campton">
-            Vendure Capital Partners is a private investment and enterprise development platform focused on transforming unlisted African businesses into scalable. We invest in high-potential SMEs and growth-stage ventures across real-economy value chains. Our goal is to close Africa’s enterprise financing gap through a model anchored on capital, capacity and catalytic partnerships.
+          <p className="text-[#fdf8f4] text-lg font-campton">
+            Vendure Capital Partners is a private investment and enterprise development platform focused on transforming unlisted African businesses into scalable. <br/> We invest in high-potential SMEs and growth-stage ventures across real-economy value chains. Our goal is to close Africa’s enterprise financing gap through a model anchored on capital, capacity and catalytic partnerships.
           </p>
         </div>
       </div>

@@ -20,9 +20,9 @@ const Index = () => {
         <div className='bg-[#1b1e23]'>
            <Services />
            {/* <Test/>+ */}
-           <Testimony />
+           {/* <Testimony /> */}
            <FAQs />
-           <Footer />
+           {/* <Footer /> */}
         </div>
         
 
