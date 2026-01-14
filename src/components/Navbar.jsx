@@ -87,7 +87,7 @@ const Navbar = () => {
                 </a>
 
                 {/* Desktop Menu */}
-                <ul className="hidden lg:flex items-center gap-5 min-[1110px]:gap-10  px-5 py-2.5">
+                <ul className="hidden lg:flex items-center gap-4  px-4 py-2.5">
                   {navItems.map((label) => (
                     <li key={label} className="relative">
                       <a
